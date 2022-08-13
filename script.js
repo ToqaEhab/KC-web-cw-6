@@ -4,7 +4,7 @@ let grade = prompt("اكتب درجتك بالأرقام") ;
 console.log(grade) ;
 
 if (grade >=90 ) {
-    console.log ("لقد حصلت على امتياز 🥳") ;
+    console.log ("%cلقد حصلت على امتياز 🥳","color:yellow;background-color:green; padding : 5px") ;
 } else if (grade >= 80) {
     console.log ("لقد حصلت على جيد جداً🤩");
 }else if (grade >=70 ){
